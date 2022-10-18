@@ -1,1 +1,1 @@
-# sample_java
+# Javaソースコード共有用に作成
