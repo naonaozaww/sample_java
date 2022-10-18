@@ -5,8 +5,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // 自分の得意な言語で
-        // Let's チャレンジ！！
         Scanner sc = new Scanner(System.in);
         
         int n = sc.nextInt();
@@ -22,6 +20,8 @@ public class Main {
             int reservedWidth = sc.nextInt();
             space[reservedHeight][reservedWidth] = -1;
         }
+
+        sc.close();
         
         if(space[p][q] != -1) {
             notReservedBestPlace(p, q, space);
